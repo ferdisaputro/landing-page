@@ -393,6 +393,10 @@ body {
    background-size: cover;
 }
 
+.record-bold {
+   font-weight: 900;
+}
+
 .section-table table {
    width: 80%;
    height: 350px;
