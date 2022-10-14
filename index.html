@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap demo</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="style.css">
+   </head>
+
+   <body>
+      
+   <!-- navbar -->
+   <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+         <a class="navbar-brand pt-0" href="#"><img src="img/logo-markaz.png" width="100px" alt=""></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#product">Product</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link disabled">Homepage</a>
+               </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+               <li>
+                  <a href="" class="nav-link"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <!-- end navbar -->
+
+   <main class="wrap" >
+      <!-- title -->
+      <section id="title" style="height: 100vh;">
+         <div class="container text-intro">
+            <div class="row row-cols-1 row-cols-md-2" style="height: 90vh;">
+               <div class="col col-md-6 col-lg-6 col-12 my-auto">
+                  <div class="mt-5 text-start sm-text-center ms-auto" style="position: relative; z-index: 2;">
+                     <h1 class="title-heading text-dark"><span class="title-heading-bold">SOLUSI</span><br> BRANDING UMKM</h1>
+                     <p class="fs-4 title-text text-dark d-block">Mulai Bisnismu Dengan Konsultan Terpercaya</p>
+                     <a href="" class="my-3 d-block"><button class="btn btn-lg btn-icons cta">Kembangkan Bisnis<i class="icons-respons bi bi-arrow-right"></i></button></a>
+                  </div>
+               </div>
+               <div class="col my-auto title-img-container">
+                  <img src="img/logo-markaz.png" alt="">
+                  <img src="img/instagram-markaz(1).png" class="shadow" alt="">
+                  <!-- <img src="img/packaging-markaz-design-net.png" alt=""> -->
+                  <img src="img/krisztian-tabori-IyaNci0CyRk-unsplash.jpg" alt="">
+                  <img src="img/ezgif-2-a22b92ca83.gif" class="shadow-lg" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="title-animation" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+         </div >
+         <!-- <svg class="title-wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 125.79, 0, 1)" offset="0%"></stop><stop stop-color="rgba(216, 7, 21, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,294L80,310.3C160,327,320,359,480,351.2C640,343,800,294,960,236.8C1120,180,1280,114,1440,89.8C1600,65,1760,82,1920,73.5C2080,65,2240,33,2400,57.2C2560,82,2720,163,2880,163.3C3040,163,3200,82,3360,98C3520,114,3680,229,3840,253.2C4000,278,4160,212,4320,187.8C4480,163,4640,180,4800,228.7C4960,278,5120,359,5280,351.2C5440,343,5600,245,5760,179.7C5920,114,6080,82,6240,65.3C6400,49,6560,49,6720,89.8C6880,131,7040,212,7200,220.5C7360,229,7520,163,7680,122.5C7840,82,8000,65,8160,106.2C8320,147,8480,245,8640,294C8800,343,8960,343,9120,285.8C9280,229,9440,114,9600,73.5C9760,33,9920,65,10080,98C10240,131,10400,163,10560,147C10720,131,10880,65,11040,106.2C11200,147,11360,294,11440,367.5L11520,441L11520,490L11440,490C11360,490,11200,490,11040,490C10880,490,10720,490,10560,490C10400,490,10240,490,10080,490C9920,490,9760,490,9600,490C9440,490,9280,490,9120,490C8960,490,8800,490,8640,490C8480,490,8320,490,8160,490C8000,490,7840,490,7680,490C7520,490,7360,490,7200,490C7040,490,6880,490,6720,490C6560,490,6400,490,6240,490C6080,490,5920,490,5760,490C5600,490,5440,490,5280,490C5120,490,4960,490,4800,490C4640,490,4480,490,4320,490C4160,490,4000,490,3840,490C3680,490,3520,490,3360,490C3200,490,3040,490,2880,490C2720,490,2560,490,2400,490C2240,490,2080,490,1920,490C1760,490,1600,490,1440,490C1280,490,1120,490,960,490C800,490,640,490,480,490C320,490,160,490,80,490L0,490Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(216, 7, 21, 1)" offset="0%"></stop><stop stop-color="rgba(255, 175.574, 0, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,196L80,220.5C160,245,320,294,480,326.7C640,359,800,376,960,367.5C1120,359,1280,327,1440,334.8C1600,343,1760,392,1920,392C2080,392,2240,343,2400,302.2C2560,261,2720,229,2880,236.8C3040,245,3200,294,3360,294C3520,294,3680,245,3840,204.2C4000,163,4160,131,4320,130.7C4480,131,4640,163,4800,187.8C4960,212,5120,229,5280,220.5C5440,212,5600,180,5760,171.5C5920,163,6080,180,6240,179.7C6400,180,6560,163,6720,187.8C6880,212,7040,278,7200,294C7360,310,7520,278,7680,228.7C7840,180,8000,114,8160,122.5C8320,131,8480,212,8640,220.5C8800,229,8960,163,9120,147C9280,131,9440,163,9600,163.3C9760,163,9920,131,10080,171.5C10240,212,10400,327,10560,326.7C10720,327,10880,212,11040,163.3C11200,114,11360,131,11440,138.8L11520,147L11520,490L11440,490C11360,490,11200,490,11040,490C10880,490,10720,490,10560,490C10400,490,10240,490,10080,490C9920,490,9760,490,9600,490C9440,490,9280,490,9120,490C8960,490,8800,490,8640,490C8480,490,8320,490,8160,490C8000,490,7840,490,7680,490C7520,490,7360,490,7200,490C7040,490,6880,490,6720,490C6560,490,6400,490,6240,490C6080,490,5920,490,5760,490C5600,490,5440,490,5280,490C5120,490,4960,490,4800,490C4640,490,4480,490,4320,490C4160,490,4000,490,3840,490C3680,490,3520,490,3360,490C3200,490,3040,490,2880,490C2720,490,2560,490,2400,490C2240,490,2080,490,1920,490C1760,490,1600,490,1440,490C1280,490,1120,490,960,490C800,490,640,490,480,490C320,490,160,490,80,490L0,490Z"></path></svg> -->
+         <svg class="title-wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+               <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                  <stop stop-color="rgba(216, 7, 21, 1)" offset="0%"></stop>
+                  <stop stop-color="rgba(216, 7, 21, 1)" offset="30%"></stop>
+                  <stop stop-color="rgba(255, 150, 0, 1)" offset="100%"></stop>
+               </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,294L80,310.3C160,327,320,359,480,351.2C640,343,800,294,960,236.8C1120,180,1280,114,1440,89.8C1600,65,1760,82,1920,73.5C2080,65,2240,33,2400,57.2C2560,82,2720,163,2880,163.3C3040,163,3200,82,3360,98C3520,114,3680,229,3840,253.2C4000,278,4160,212,4320,187.8C4480,163,4640,180,4800,228.7C4960,278,5120,359,5280,351.2C5440,343,5600,245,5760,179.7C5920,114,6080,82,6240,65.3C6400,49,6560,49,6720,89.8C6880,131,7040,212,7200,220.5C7360,229,7520,163,7680,122.5C7840,82,8000,65,8160,106.2C8320,147,8480,245,8640,294C8800,343,8960,343,9120,285.8C9280,229,9440,114,9600,73.5C9760,33,9920,65,10080,98C10240,131,10400,163,10560,147C10720,131,10880,65,11040,106.2C11200,147,11360,294,11440,367.5L11520,441L11520,490L11440,490C11360,490,11200,490,11040,490C10880,490,10720,490,10560,490C10400,490,10240,490,10080,490C9920,490,9760,490,9600,490C9440,490,9280,490,9120,490C8960,490,8800,490,8640,490C8480,490,8320,490,8160,490C8000,490,7840,490,7680,490C7520,490,7360,490,7200,490C7040,490,6880,490,6720,490C6560,490,6400,490,6240,490C6080,490,5920,490,5760,490C5600,490,5440,490,5280,490C5120,490,4960,490,4800,490C4640,490,4480,490,4320,490C4160,490,4000,490,3840,490C3680,490,3520,490,3360,490C3200,490,3040,490,2880,490C2720,490,2560,490,2400,490C2240,490,2080,490,1920,490C1760,490,1600,490,1440,490C1280,490,1120,490,960,490C800,490,640,490,480,490C320,490,160,490,80,490L0,490Z"></path>
+            <defs>
+               <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
+                  <stop stop-color="#d80715" offset="0%"></stop>
+                  <stop stop-color="rgba(255, 7, 21, 1)" offset="100%"></stop>
+               </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 50px); opacity:0.6" fill="url(#sw-gradient-1)" d="M0,196L80,220.5C160,245,320,294,480,326.7C640,359,800,376,960,367.5C1120,359,1280,327,1440,334.8C1600,343,1760,392,1920,392C2080,392,2240,343,2400,302.2C2560,261,2720,229,2880,236.8C3040,245,3200,294,3360,294C3520,294,3680,245,3840,204.2C4000,163,4160,131,4320,130.7C4480,131,4640,163,4800,187.8C4960,212,5120,229,5280,220.5C5440,212,5600,180,5760,171.5C5920,163,6080,180,6240,179.7C6400,180,6560,163,6720,187.8C6880,212,7040,278,7200,294C7360,310,7520,278,7680,228.7C7840,180,8000,114,8160,122.5C8320,131,8480,212,8640,220.5C8800,229,8960,163,9120,147C9280,131,9440,163,9600,163.3C9760,163,9920,131,10080,171.5C10240,212,10400,327,10560,326.7C10720,327,10880,212,11040,163.3C11200,114,11360,131,11440,138.8L11520,147L11520,490L11440,490C11360,490,11200,490,11040,490C10880,490,10720,490,10560,490C10400,490,10240,490,10080,490C9920,490,9760,490,9600,490C9440,490,9280,490,9120,490C8960,490,8800,490,8640,490C8480,490,8320,490,8160,490C8000,490,7840,490,7680,490C7520,490,7360,490,7200,490C7040,490,6880,490,6720,490C6560,490,6400,490,6240,490C6080,490,5920,490,5760,490C5600,490,5440,490,5280,490C5120,490,4960,490,4800,490C4640,490,4480,490,4320,490C4160,490,4000,490,3840,490C3680,490,3520,490,3360,490C3200,490,3040,490,2880,490C2720,490,2560,490,2400,490C2240,490,2080,490,1920,490C1760,490,1600,490,1440,490C1280,490,1120,490,960,490C800,490,640,490,480,490C320,490,160,490,80,490L0,490Z"></path>
+         </svg>
+      </section>
+      <!-- end title -->
+      
+      <!-- about -->
+      <section id="about">
+         <div class="container">
+            <div class="row new-section row-cols-1">
+               <div class="col col-lg my-auto">
+                  <!-- <h1 class="fs-1 fw-semibold text-capitalize d-flex">lorem</h1> -->
+                  <span class="fs-4">
+                     <b data-aos-once="true" data-aos="fade-up" class="d-inline-block">Markaz</b> 
+                     <span class="d-inline-block" data-aos="fade" data-aos-once="true">adalah</span> 
+                     <span data-aos-once="true" data-aos="fade-up" data-aos-delay="300" class="d-inline-block">Brand Konsultan</span> 
+                     <span class="d-inline-block" data-aos-once="true" data-aos-delay="300" data-aos="fade" >untuk UMKM berbasis di Sidoarjo. Berpengalaman lebih dari 5 tahun dalam insdustri kreatif. Layanan dengan solusi kreatif yang mencakup</span>
+                     <b class="d-inline-block" data-aos-once="true" data-aos="fade-up" data-aos-delay="600">Strategi Bisnis, Visual Branding dan Digital Content.</b>
+                  </span>
+               </div>
+               <div class="col col-lg my-auto"> 
+                  <!-- <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-ride="carousel">
+                     <div class="carousel-inner rounded shadow-lg">
+                        <div class="carousel-item active"  data-bs-interval="3000">
+                           <img src="img/carousel/campaign-creators-iEiUITs149M-unsplash.jpg" class="d-block w-100" alt="img/12-27.png">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                           <img src="img/carousel/cardmapr-nl-N8Pnhrcr73o-unsplash.jpg" class="d-block w-100" alt="img/12-27.png">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                           <img src="img/carousel/matthew-osborn-wMRIcT86SWU-unsplash.jpg" class="d-block w-100" alt="img/12-27.png">
+                        </div>
+                        <div class="carousel-item">
+                           <img src="img/carousel/dylan-gillis-KdeqA3aTnBY-unsplash.jpg" class="d-block w-100" alt="img/12-27.png">
+                        </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                     </button>
+                  </div> -->
+                  <img src="img/ezgif-2-a22b92ca83.gif" width="90%" class="d-block mx-auto rounded" alt="about.gif" data-aos-once="true" data-aos="fade-left" data-aos-duration="2000">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end about -->
+
+      <!-- product -->
+      <section id="product">
+         <div class="container main-section py-4">
+            <div class="row new-section">
+               <div class="col my-auto">
+                  <div class="col col-9 mx-auto text-center">
+                     <span class="fs-4 d-block" data-aos-once="true" data-aos="fade-up">Markaz percaya bahwa dengan produk inovatif serta strategi branding yang kreatif UMKM Indonesia mampu menguasai pasar lokal hingga ekspansi ke luar negeri.</span>
+                  </div>
+                  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3 my-5">
+                     <div class="col mb-4 anchor" data-aos-once="true" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
+                        <div class="card border-0 shadow" style="width: 18rem;">
+                           <div class="card-body">
+                              <div class="header position-relative">
+                                 <!-- <img src="https://img.icons8.com/pastel-glyph/64/000000/strategy-board.png"/> -->
+                                 <h5 class="fs-4 fw-semibold text-start">KONSULTASI BISNIS</h5>
+                              </div>
+                              <p class="card-text text-start">Selalu menerima diskusi tentang bisnis maupun branding suatu produk.</p>
+                           </div>
+                           <hr class="card">
+                           <div class="card-body">
+                              <ul>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col mb-4" data-aos-once="true" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-delay="400" data-aos-anchor=".anchor">
+                        <div class="card border-0 shadow" style="width: 18rem;">
+                           <div class="card-body">
+                              <div class="header position-relative">
+                                 <!-- <img src="https://img.icons8.com/pastel-glyph/64/000000/strategy-board.png"/> -->
+                                 <h5 class="fs-4 fw-semibold text-start">STRATEGI BRAND</h5>
+                              </div>
+                              <p class="card-text">Kami juga membantu tentang pemasalahan strategi Brand anda dengan memecahkan masalah.</p>
+                           </div>
+                           <hr class="card">
+                           <div class="card-body">
+                              <ul>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col mb-4" data-aos-once="true" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-delay="600" data-aos-anchor=".anchor">
+                        <div class="card border-0 shadow" style="width: 18rem;">
+                           <div class="card-body">
+                              <div class="header position-relative">
+                                 <!-- <img src="https://img.icons8.com/pastel-glyph/64/000000/strategy-board.png"/> -->
+                                 <h5 class="fs-4 fw-semibold text-start">SEMINAR UMKM</h5>
+                              </div>
+                              <p class="card-text">Kami sering memberikan pelatihan untuk UMKM sebagai wadah untuk berkembang.</p>
+                           </div>
+                           <hr class="card">
+                           <div class="card-body">
+                              <ul>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col mb-4" data-aos-once="true" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-delay="800" data-aos-anchor=".anchor">
+                        <div class="card border-0 shadow" style="width: 18rem;">
+                           <div class="card-body">
+                              <div class="header position-relative">
+                                 <!-- <img src="https://img.icons8.com/pastel-glyph/64/000000/strategy-board.png"/> -->
+                                 <h5 class="fs-4 fw-semibold text-start">VISUAL BRANDING</h5>
+                              </div>
+                              <p class="card-text">Memberikan layanan Desain Grafis yang sangat elegan untuk produk anda.</p>
+                           </div>
+                           <hr class="card">
+                           <div class="card-body">
+                              <ul>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col mb-4" data-aos-once="true" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-delay="1000" data-aos-anchor=".anchor">
+                        <div class="card border-0 shadow" style="width: 18rem;">
+                           <div class="card-body">
+                              <div class="header position-relative">
+                                 <!-- <img src="https://img.icons8.com/pastel-glyph/64/000000/strategy-board.png"/> -->
+                                 <h5 class="fs-4 fw-semibold text-start">DIGITAL CONTENT</h5>
+                              </div>
+                              <p class="card-text">Melayani Foto Produk anda menjadi lebih menarik dimata calon konsumen.</p>
+                           </div>
+                           <hr class="card">
+                           <div class="card-body">
+                              <ul>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col mb-4" data-aos-once="true" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-delay="1200" data-aos-anchor=".anchor">
+                        <div class="card border-0 shadow" style="width: 18rem;">
+                           <div class="card-body">
+                              <div class="header position-relative">
+                                 <!-- <img src="https://img.icons8.com/pastel-glyph/64/000000/strategy-board.png"/> -->
+                                 <h5 class="fs-4 fw-semibold text-start">WEB BRANDING</h5>
+                              </div>
+                              <p class="card-text">Kami juga memberikan layanan pembuatan website untuk meningkatkan Brand anda.</p>
+                           </div>
+                           <hr class="card">
+                           <div class="card-body">
+                              <ul>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                                 <li>Lorem ipsum dolor</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end product -->
+
+      <!-- reason -->
+      <section id="reason">
+         <div class="container">
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-1 justify-content-between new-section">
+               <div class="col col-lg-5 my-auto div-d" data-aos="zoom-out-right" data-aos-duration="1300" data-aos-once="true">
+                  <img src="img/3d/kelly-sikkema-4le7k9XVYjE-unsplash.jpg" class="d1" alt="3d image effect">
+                  <img src="img/3d/micheile-dot-com-ZVprbBmT8QA-unsplash.jpg" class="d2" alt="3d image effect">
+                  <img src="img/3d/microsoft-365-oUbzU87d1Gc-unsplash.jpg" class="d3" alt="3d image effect">
+               </div>
+               <div class="col my-auto text-white div-t">
+                  <ul>
+                     <li class="mb-3 anchor3" data-aos-once="true" data-aos="fade-up" data-aos-anchor-placement="center-center">
+                        <h1 class="fs-3 mb-0">BERPENGALAMAN</h1>
+                        <p class="fs-5 mt-0">
+                           Pengalaman 5 tahun dalam bidang industri kreatif sebagai solusi branding UMKM
+                        </p>
+                     </li>
+                     <li class="mb-3" data-aos-once="true" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-delay="200" data-aos-anchor=".anchor3">
+                        <h1 class="fs-3 mb-0">TERPERCAYA</h1>
+                        <p class="fs-5 mt-0">
+                           Lebih dari seribu UMKM yang menggunakan jasa Markaz
+                        </p>
+                     </li>
+                     <li class="mb-3" data-aos-once="true" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-delay="400" data-aos-anchor=".anchor3">
+                        <h1 class="fs-3 mb-0">SIMPEL</h1>
+                        <p class="fs-5 mt-0">
+                           Kami menerapkan strategi branding mudah untuk UMKM sesuai target pasarnya
+                        </p>
+                     </li>
+                     <li class="mb-3" data-aos-once="true" data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-delay="600" data-aos-anchor=".anchor3">
+                        <h1 class="fs-3 mb-0">EKONOMIS</h1>
+                        <p class="fs-5 mt-0">
+                           Dengan harga paket mulai 500 ribuan, cukup terjangkau untuk UMKM
+                        </p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end reason -->
+
+      <!-- record -->
+      <section id="record" class="pt-5 mt-5">
+         <div class="container section-table">
+            <div class="row new-section">
+               <div class="col my-auto">
+                  <div class="row justify-content-center">
+                     <div class="col col-lg-9 text-center">
+                        <h2 class="fs-2 fw-semibold">
+                           <span class="d-inline-block" data-aos-once="true" data-aos="fade-up" >Lorem </span>
+                           <span class="d-inline-block" data-aos-once="true" data-aos="fade-up" data-aos-delay="200">ipsum </span>
+                           <span class="d-inline-block" data-aos-once="true" data-aos="fade-up" data-aos-delay="400">sit </span>
+                           <span class="d-inline-block" data-aos-once="true" data-aos="fade-up" data-aos-delay="600">amet. </span>
+                        </h2>
+                        <span class="fs-4 d-inline-block" data-aos-once="true" data-aos="fade-up" data-aos-delay="800">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, adipisci!</span>
+                     </div>
+                  </div>
+                  <table class="mt-5 anchor-table" data-aos-once="true" data-aos="fade" data-aos-duration="600" data-aos-anchor-placement="bottom-bottom">
+                     <tr>
+                        <td>
+                           <div class="table-td text-center" data-aos-anchor=".anchor-table" data-aos-anchor-placement="bottom-bottom" data-aos-once="true" data-aos="fade-down" data-aos-delay="200">
+                              <img src="icons/icons8-partner-58.png"  alt="">
+                              <h1 class="fw-bold">800<sup>+</sup></h1>
+                              <span class="fs-5 fw-semibold">PROJECTS</span>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="table-td text-center" data-aos-anchor=".anchor-table" data-aos-anchor-placement="bottom-bottom" data-aos-once="true" data-aos="fade-down" data-aos-delay="400">
+                              <img src="icons/icons8-person-48.png"  alt="">
+                              <h1 class="fw-bold">600<sup>+</sup></h1>
+                              <span class="fs-5 fw-semibold">UMKM</span>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="table-td text-center" data-aos-anchor=".anchor-table" data-aos-anchor-placement="bottom-bottom" data-aos-once="true" data-aos="fade-down" data-aos-delay="600">
+                              <img src="icons/icons8-repeat-64.png"  alt="">
+                              <h1 class="fw-bold">150<sup>+</sup></h1>
+                              <span class="fs-5 fw-semibold">REPEAT ORDER</span>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <div class="table-td text-center"data-aos-anchor=".anchor-table" data-aos-anchor-placement="bottom-bottom" data-aos-once="true" data-aos="fade-up" data-aos-delay="800">
+                              <img src="icons/icons8-social-64.png"  alt="">
+                              <h1 class="fw-bold">14k<sup>+</sup></h1>
+                              <span class="fs-5 fw-semibold">SOCIAL FOLLOWERS</span>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="table-td text-center" data-aos-anchor=".anchor-table" data-aos-anchor-placement="bottom-bottom" data-aos-once="true" data-aos="fade-up" data-aos-delay="1000">
+                              <img src="icons/icons8-language-skill-48.png"  alt="">
+                              <h1 class="fw-bold">2<sup></sup></h1>
+                              <span class="fs-5 fw-semibold">LANGUAGE</span>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="table-td text-center" data-aos-anchor=".anchor-table" data-aos-anchor-placement="bottom-bottom" data-aos-once="true" data-aos="fade-up" data-aos-delay="1200">
+                              <img src="icons/icons8-colloquium-64.png" alt="">
+                              <h1 class="fw-bold">50<sup>+</sup></h1>
+                              <span class="fs-5 fw-semibold">COLLOQUIUM</span>
+                           </div>
+                        </td>
+                     </tr>
+                  </table>                  
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end record -->
+
+      <!-- testimony -->
+      <section id="testimony" >
+         <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 py-3">
+               <div class="col col-12 col-lg-5 my-auto fs-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                  <span class="fs-3 fw-semibold">
+                     <span class="d-inline-block" data-aos-once="true" data-aos="fade-up">Mulai</span> 
+                     <span class="d-inline-block" data-aos-once="true" data-aos="fade" data-aos-delay="1200"> bisnis anda </span>
+                     <br> 
+                     <span class="d-inline-block" data-aos-once="true" data-aos="fade-up" data-aos-delay="200"> dengan </span>
+                     <span class="d-inline-block text-danger fw-bold" data-aos-once="true" data-aos="fade-up" data-aos-delay="400">Markaz</span>
+                     <span class="d-inline-block" data-aos-once="true" data-aos="fade" data-aos-delay="1250">Sekarang!</span>
+                  </span>
+               </div>
+               <div class="col my-auto mx-auto">
+                  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end testimony -->
+   </main>
+
+   <footer>
+      <div class="container">
+         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 pt-5">
+            <div class="col border-end">
+               <div class="row">
+                  <div class="col">
+                     <h5>Lorem ipsum dolor sit amet</h5>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem error, porro enim eos provident unde id. Harum magnam quia, corporis veniam eligendi est voluptas reiciendis repellat repellendus iste vero dolore.</p>
+                  </div>
+                  <div class="col">
+                     <ul style="list-style-type: none;">
+                        <li><h5>Lorem, ipsum dolor.</h5></li>
+                        <li class="text-secondary">list 1</li>
+                        <li class="text-secondary">list 2</li>
+                        <li class="text-secondary">list 3</li>
+                        <li class="text-secondary">list 4</li>
+                        <li class="text-secondary">list 5</li>
+                        <li class="text-secondary">list 6</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col col-lg-5 mx-auto">
+               <h5>Contact Us</h5>
+               <form action="">
+                  <div class="form-floating mb-3 text-dark">
+                     <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                     <label for="floatingInput">Name</label>
+                  </div>
+                  <div class="form-floating mb-3 text-dark">
+                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                     <label for="floatingInput">To:</label>
+                  </div>                   
+                  <div class="form-floating mb-3 text-dark">
+                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                     <label for="floatingTextarea">Comments</label>
+                  </div>
+                  <button type="submit" class="btn btn-outline-danger w-25">Submit</button>
+               </form>
+            </div>
+         </div>
+         
+         <div class="row justify-content-center mt-4">
+            <div class="col col-lg-5">
+               <ul class="d-flex justify-content-center ps-0" style="list-style-type: none;">
+                  <li class="mx-2 fs-4"><a href="#"><i class="text-secondary bi bi-instagram"></i></a></li>
+                  <li class="mx-2 fs-4"><a href="#"><i class="text-secondary bi bi-facebook"></i></a></li>
+                  <li class="mx-2 fs-4"><a href="#"><i class="text-secondary bi bi-whatsapp"></i></a></li>
+                  <li class="mx-2 fs-4"><a href="#"><i class="text-secondary bi bi-twitter"></i></a></li>
+                  <li class="mx-2 fs-4"><a href="#"><i class="text-secondary bi bi-youtube"></i></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+      
+   </body>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init({
+         duration : 1000
+      });
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+   <script src="js/main.js"></script>
+</html>
